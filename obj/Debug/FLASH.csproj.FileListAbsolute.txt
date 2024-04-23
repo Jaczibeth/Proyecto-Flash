@@ -1,0 +1,32 @@
+C:\Users\Usuario\source\repos\FLASH\FLASH\bin\Debug\FLASH.exe
+C:\Users\Usuario\source\repos\FLASH\FLASH\bin\Debug\FLASH.pdb
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.Properties.Resources.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.exe
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.pdb
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.MENU.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.MIS_DATOS.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.CURSOS_ACTIVOS.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.INICIO.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.acceso1.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.LOGIN.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.NIVEL1.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.REGISTRO.resources
+C:\Users\Usuario\source\repos\FLASH\FLASH\obj\Debug\FLASH.csproj.CopyComplete
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.csproj.AssemblyReference.cache
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.CURSOS_ACTIVOS.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.acceso1.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.INICIO.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.LOGIN.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.MENU.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.MIS_DATOS.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.NIVEL1.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.Properties.Resources.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.REGISTRO.resources
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.csproj.GenerateResource.cache
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.csproj.CoreCompileInputs.cache
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.exe
+C:\Users\Jaczibeth Cruz\Downloads\FLASH\FLASH\obj\Debug\FLASH.pdb

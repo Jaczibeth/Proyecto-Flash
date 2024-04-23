@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8747DF6B-94A7-47FA-9C5A-7715775EAEF1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FLASH</RootNamespace>
+    <AssemblyName>FLASH</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CURSOS ACTIVOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CURSOS ACTIVOS.Designer.cs">
+      <DependentUpon>CURSOS ACTIVOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="acceso1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acceso1.Designer.cs">
+      <DependentUpon>acceso1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO.Designer.cs">
+      <DependentUpon>INICIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU.Designer.cs">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MIS DATOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MIS DATOS.Designer.cs">
+      <DependentUpon>MIS DATOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NIVEL1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NIVEL1.Designer.cs">
+      <DependentUpon>NIVEL1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REGISTRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REGISTRO.Designer.cs">
+      <DependentUpon>REGISTRO.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CURSOS ACTIVOS.resx">
+      <DependentUpon>CURSOS ACTIVOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="acceso1.resx">
+      <DependentUpon>acceso1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO.resx">
+      <DependentUpon>INICIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU.resx">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MIS DATOS.resx">
+      <DependentUpon>MIS DATOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NIVEL1.resx">
+      <DependentUpon>NIVEL1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="REGISTRO.resx">
+      <DependentUpon>REGISTRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5be66350-585c-4411-b8fc-1ae77027e898.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-x-noir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492790945-39minimize_84242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5be66350-585c-4411-b8fc-1ae77027e8981.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-minimize-minus-remove-line-basic-user-interface-elements-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_minimize_icon_138009 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_regular_icon_205166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd11c3dd-264e-4220-8483-b08e144884b4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\463-4635654_search-icon-png-image-search-icon-png-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-search-magnifier-find-zoom-glass-seo-optimization-instagram-icon-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06d6983e-beb9-4930-94aa-81d1e0bdc996.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83118b7f-bef6-4fbe-af04-93ce8ddb5d61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\822430fe-37ad-4c10-a3a6-4d14ca02ff6c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ef94eba5-a28d-4662-910c-1cb95f142e1e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83118b7f-bef6-4fbe-af04-93ce8ddb5d611.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fc3a49f3-c0c7-4bff-8819-ae84f30cacc4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06d6983e-beb9-4930-94aa-81d1e0bdc9961.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
